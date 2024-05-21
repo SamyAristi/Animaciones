@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game_stock</title>
+ <link rel="stylesheet" href="./assets/css/style.css">
+ <script src="https://kit.fontawesome.com/3e9bd65eac.js" crossorigin="anonymous"></script>
+  <style>
+
+
+
+
+@keyframes mover {
+ 0% { transform: rotate(0deg);}
+  
+ 50%{ transform: rotateY(180des);}
+
+ 100% { transform: rotateY(360deg);}
+}
+
+@keyframes raya{
+0%{
+  border-bottom: 3px solid mediumvioletred;
+}
+
+50%{
+  border-bottom: 3px solid white;
+}
+
+100%{
+  border-bottom: 3px solid yellow;
+}
+
+
+}
+
+.card img:hover{
+  transform: rotateY(180deg);
+}
+
+.card:hover{
+  filter: grayscale(0%);
+}
+
+  </style>
+</head>
+<body>
+
+<div class="contenedor-grid">
+
+ <menu class="nav">
+  <div class="nav-menu">
+
+  
+    <nav class="navegacion">
+      <div class="logo">
+        <i style="width: 30px; height: 20px; padding-top: 50px;" class="fa-solid fa-gamepad"></i><p> Gaming Store</p>
+      </div>
+</div>
+
+<div class="barra">
+ <ul>
+<li><a href="#"><strong>Inicio</strong></a></li>
+<li><a href="#"><strong>Catalogo</strong></a></li>
+<li><a href="#"><strong>Oferta</strong></a></li>
+<li><a href="#"><strong>Contacto</strong></a></li>
+</ul>
+</div>  
+
+<div class="icono_1">
+<i  style="color: #fff;" class="fa-solid fa-bars"></i>
+</div>
+
+ </menu>
+
+
+
+<section>  
+    <p style="color: white;">Ordenar por:</p>
+    <select class="value">
+      
+        <option value="">Accion</option>
+        <option value="">Aventura</option>
+        <option value="">Historia</option>
+    </select>
+</section>
+
+
+<main>
+ <div class="card">
+  <div>
+<img  src="./assets/img/Battlefield 1.jpeg" class alt="Battlefield">
+  </div>
+     <p>Battlefield</p>
+      <button>Ver más</button>
+  </div>
+
+  <div class="card">
+
+    <div>
+      <img src="./assets/img/BIOSHOCK.webp" class alt="BIOSHOCK">
+    </div>
+      <p>BIOSHOCK</p>
+      <button>Ver más</button>
+  </div>
+
+  <div class="card">
+    <div>
+      <img src="./assets/img/bloodborne.jpeg" class alt="bloodborne">
+    </div>
+      <p>Bloodborne</p>
+      <button>Ver más</button>
+  </div>
+
+  <div class="card">
+    <div>
+      <img src="./assets/img/darcksouls.jpg" class alt="darcksouls">
+    </div>
+      <p>Darcksouls</p>
+      <button>Ver más</button>
+  </div>
+
+  <div class="card">
+   <div>
+     <img src="assets/img/fallout.jpg" class alt="Fallout">
+      
+   </div>
+   <p>Fallout</p>
+  <button>Ver más</button>
+  </div>
+
+  <div class="card">
+    <div>
+    <img src="./assets/img/gta.jpg" class alt="GTA V">
+    </div>
+      <p>GTA V</p>
+      <button>Ver más</button>
+  </div>
+
+  <div class="card">
+    <div>
+      <img src="./assets/img/halo-4.webp" class alt="halo-4">  
+    </div>
+    <p>Halo-4</p>
+      <button>Ver más</button>
+  </div>
+
+  <div class="card">
+    <div>
+      <img src="./assets/img/Stray.jpg" class alt=" Stray">
+    </div>
+      <p>Stray</p>
+      <button>Ver más</button>
+</div>
+</main>
+
+
+
+  <div class="numeros">
+    <div><<</div>
+    <div>1</div>
+    <div>2</div>
+    <div>3</div>
+    <div>4</div>
+    <div>5</div>
+    <div>>></div>
+</div>
+  
+
+
+
+
+
+<footer  class="footer">
+
+  <div>
+    <h5>Contactos</h5>
+    <p> <i class="fa-solid fa-envelope"></i>Samyaristizabalazuero@gmail.com</p>
+  </div>
+    <div>
+      <h5>Redes sociales</h5>
+        <a><i class="fa-brands fa-square-instagram"></i>Instagram </a>
+        <a><i class="fa-brands fa-square-facebook"></i>Facebook</a>
+    </div>
+
+    <div>
+    <p>@2024 todos los derechos reservados</p>
+    </div>
+</footer>
+
+  </div>
+   
+ 
+    
+
+</body>
+</html>
